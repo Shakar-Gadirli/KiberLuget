@@ -5,7 +5,7 @@ import axios from 'axios';
 const Articles = props => (
   <tr>
     <td>{props.articles.term}</td>
-    <td>{props.exercise.definition}</td>
+    <td>{props.articles.definition}</td>
   </tr>
 )
 
