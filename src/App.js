@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route, Redirect} from "react-router-dom";
 
 import Home from "./components/Home_Component"
-// import Articles from "./components/Articles_Component";
+import Articles from "./components/Articles_Component";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <br/>
       <Route exact path="/" component={() => (<Redirect to='/home' />)} />
       <Route path="/home" exact component={Home} />
-      {/* <Route path="/articles" component={Article} /> */}
+      <Route path="/articles" component={Articles} />
       </div>
     </Router>
   );

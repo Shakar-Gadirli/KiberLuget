@@ -9,7 +9,7 @@ router.get('/articles', (req, res) => {
 
 
 router.get('/home', (req, res) => {
-	res.json('hello world')
+	res.json('(This text comes from back)')
 })
 
 module.exports = router;
